@@ -14,12 +14,12 @@ const Hero = () => {
           Don't worry, we'll handle all the clean up, both for you and your
           enemies
         </p>
-        <button className="button-padding mb-4 w-fit rounded-md bg-primary-600 transition-none">
-          Check our offer
-        </button>
       </div>
       <div className="relative mx-auto my-5 w-10/12 rounded">
-        <div className="relative z-10 overflow-hidden rounded-lg border-2 border-black">
+        <button className="button-padding absolute z-20 mb-4 w-fit -translate-x-[20%] -translate-y-[20%] rounded-md border-2 border-primary-600 bg-primary-400 transition-none">
+          Check our offer
+        </button>
+        <div className="relative z-10 overflow-hidden rounded-lg border-2 border-secondary-700">
           <div className="h-[25%] rounded-t bg-primary-600 px-3 pb-2 pt-5">
             <div className="h-2 w-2/5 rounded bg-secondary-400"></div>
             <div className="mt-2 h-2 w-1/5 rounded bg-secondary-500"></div>
@@ -39,7 +39,7 @@ const Hero = () => {
             <div className="mx-auto mt-2 h-2 w-2/5 rounded bg-secondary-400"></div>
           </div>
         </div>
-        <div className="absolute top-0 z-0 h-20 w-1/2 -translate-x-[25%] -translate-y-[25%] rounded border-2 border-secondary-300 bg-accent-100 p-2">
+        <div className="absolute top-0 z-0 h-56 w-52 -translate-x-[8%] translate-y-[35%] rounded border-2 border-secondary-300 bg-accent-100 p-2">
           <div className="my-1 h-3 rounded-full bg-secondary-200"></div>
           <div className="my-2 h-3 rounded-full bg-secondary-300"></div>
         </div>
