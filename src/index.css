@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section-padding {
+    @apply px-4
+  }
+  .button-padding{
+    @apply p-2
+  }
+}
