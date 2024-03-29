@@ -9,7 +9,7 @@ const Hero = () => {
         </h1>
         <p className="text-sm">
           Don't worry, we'll handle all the clean up, both for you and your
-          enemies
+          enemies.
         </p>
       </div>
       <div className="relative mx-auto my-7 w-10/12 rounded">
@@ -54,7 +54,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-16 right-0 z-20 h-16 w-20 translate-x-[45%] translate-y-[35%] rounded border-2 border-primary-600 bg-primary-400 p-2">
+        <div className="absolute bottom-16 right-0 z-20 h-14 w-16 translate-x-[45%] translate-y-[35%] rounded border-2 border-primary-600 bg-primary-400 p-2">
           <h2 className="font-bold text-primary-700">87%</h2>
           <div className="my-1 h-2 rounded-full bg-primary-600"></div>
         </div>

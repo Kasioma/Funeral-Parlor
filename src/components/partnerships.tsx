@@ -5,7 +5,7 @@ import Facebook from "../assets/facebook.png";
 const Partnerships = () => {
   return (
     <div className="section-padding bg-secondary-900 py-7 text-text-50">
-      <div className="text-center">
+      <div className="mx-auto w-11/12 text-center">
         <h2 className="my-4 text-2xl">Strong partnerships and Track record</h2>
         <p className="text-xs">
           50,000 people <span className="font-bold italic">had </span>

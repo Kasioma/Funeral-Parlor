@@ -10,8 +10,8 @@ const Header = () => {
   };
 
   const navigationClass = !open
-    ? "scale-0 h-0 transition-all duration-500"
-    : "scale-1 h-60 transition-all duration-500";
+    ? "opacity-0 max-h-0 overflow-hidden transition-all duration-500"
+    : "opacity-100 max-h-60 transition-all duration-500";
 
   return (
     <header className="section-padding flex flex-col items-center bg-background-950 py-3 text-lg text-text-100">
